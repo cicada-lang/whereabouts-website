@@ -1,14 +1,10 @@
-<script setup lang="ts">
-import PageLayout from '../../layouts/page-layout/PageLayout.vue'
-</script>
-
 <template>
-  <PageLayout>
+  <div class="px-6">
     <section class="space-y-2 py-4">
       <h2>404</h2>
       <p>Page Not Found</p>
     </section>
-  </PageLayout>
+  </div>
 </template>
 
 <style scoped>
