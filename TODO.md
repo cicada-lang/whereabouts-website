@@ -1,1 +1,1 @@
-use cicada-whereabouts instead of cicada
+fix the use of cicada-whereabouts

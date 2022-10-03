@@ -1,4 +1,4 @@
-import { Loader, Mod, Errors } from '@cicada-lang/cicada'
+import { Loader, Mod, Errors } from '@cicada-lang/cicada-whereabouts'
 
 export class PlaygroundState {
   loader = new Loader()
@@ -33,10 +33,10 @@ export class PlaygroundState {
       this.error = {
         message: JSON.stringify(error),
       }
-    } else if (error instanceof Errors.ParsingError) {
-      this.error = {
-        message: error.report(this.text),
-      }
+      // } else if (error instanceof Errors.ParsingError) {
+      //   this.error = {
+      //     message: error.report(this.text),
+      //   }
     } else {
       this.error = {
         message: error.message,
