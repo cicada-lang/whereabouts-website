@@ -6,7 +6,7 @@ module.exports = {
     extend: {
       colors: {
         gray: colors.stone,
-        theme: colors.blue,
+        theme: colors.violet,
       },
     },
     fontFamily: {
@@ -23,7 +23,7 @@ module.exports = {
         'LXGW WenKai Larger',
         'monospace',
       ],
-      logo: ['Bodoni Moda', 'Source Han Serif SC', 'serif'],
+      logo: ['Linux Libertine O', 'LXGW WenKai Larger', 'sans-serif'],
     },
   },
 }
