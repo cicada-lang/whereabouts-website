@@ -44,7 +44,7 @@ watch(
 
 <template>
   <PageLayout>
-    <div class="flex flex-col">
+    <div class="flex h-full flex-col">
       <PlaygroundHeader :state="state" />
       <div class="flex h-full flex-col overflow-y-auto md:flex-row">
         <PlaygroundEditor
