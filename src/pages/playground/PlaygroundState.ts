@@ -30,17 +30,11 @@ export class PlaygroundState {
 
   catchError(error: unknown): void {
     if (!(error instanceof Error)) {
-      this.error = {
-        message: JSON.stringify(error),
-      }
-      // } else if (error instanceof Errors.ParsingError) {
-      //   this.error = {
-      //     message: error.report(this.text),
-      //   }
+      this.error = { message: JSON.stringify(error) }
+    } else if (error instanceof Errors.ParsingError) {
+      this.error = { message: error.report(this.text) }
     } else {
-      this.error = {
-        message: error.message,
-      }
+      this.error = { message: error.message }
     }
   }
 }

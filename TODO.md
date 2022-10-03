@@ -1,1 +1,1 @@
-fix the use of cicada-whereabouts
+upstream fix cicada-whereabouts output
