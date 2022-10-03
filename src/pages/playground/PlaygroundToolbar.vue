@@ -24,7 +24,6 @@ async function share() {
 
 <template>
   <div class="space-x-3">
-    <Link class="font-semibold text-theme-900" href="/"> HOMEPAGE </Link>
     <button class="font-semibold text-theme-900" @click="share()">SHARE</button>
   </div>
 </template>
