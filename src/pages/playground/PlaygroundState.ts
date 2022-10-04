@@ -1,4 +1,4 @@
-import { Loader, Mod, Errors } from '@cicada-lang/cicada-whereabouts'
+import { Loader, Mod, Errors } from '@cicada-lang/whereabouts'
 
 export class PlaygroundState {
   loader = new Loader()

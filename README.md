@@ -1,7 +1,7 @@
 # Cicada Whereabouts Website
 
 [ [VISIT](https://whereabouts.cicada-lang.org)
-| [MAIN PROJECT](https://github.com/cicada-lang/cicada-whereabouts) ]
+| [MAIN PROJECT](https://github.com/cicada-lang/whereabouts) ]
 
 ## Development
 
