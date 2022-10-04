@@ -1,4 +1,4 @@
-# Cicada Whereabouts Website
+# Whereabouts Website
 
 [ [VISIT](https://whereabouts.cicada-lang.org)
 | [MAIN PROJECT](https://github.com/cicada-lang/whereabouts) ]
