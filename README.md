@@ -1,7 +1,8 @@
 # Whereabouts Website
 
-[ [VISIT](https://whereabouts.cicada-lang.org)
-| [MAIN PROJECT](https://github.com/cicada-lang/whereabouts) ]
+[ [VISIT](https://whereabouts.cicada-lang.org) ]
+
+An online code playground for [**whereabouts**](https://github.com/cicada-lang/whereabouts).
 
 ## Development
 
