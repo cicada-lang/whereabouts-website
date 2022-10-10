@@ -1,7 +1,19 @@
 import { Loader, Mod, Errors } from '@cicada-lang/whereabouts'
 
 export class PlaygroundState {
-  loader = new Loader()
+  loader = new Loader({
+    debugger: {
+      report(solver) {
+        console.log('---')
+        console.log(solver.reportFormatYAML())
+      },
+      prompt(solver) {
+        const input = window.prompt('debugger> ')
+        if (input === '') return 0
+        else return Number.parseInt(input)
+      },
+    },
+  })
 
   mod = new Mod({
     url: new URL(window.location.href),
