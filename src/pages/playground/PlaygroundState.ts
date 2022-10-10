@@ -9,7 +9,7 @@ export class PlaygroundState {
       },
       prompt(solver) {
         const input = window.prompt('debugger> ')
-        if (input === '') return 0
+        if (!input) return 0
         else return Number.parseInt(input)
       },
     },
