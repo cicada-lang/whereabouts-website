@@ -22,7 +22,6 @@
     "@headlessui/vue": "^1.7.3",
     "@heroicons/vue": "^2.0.12",
     "@types/lodash": "^4.14.186",
-    "@types/node": "18.8.0",
     "@vitejs/plugin-vue": "^3.1.2",
     "@vueuse/core": "^9.3.1",
     "@vueuse/head": "^0.9.8",
