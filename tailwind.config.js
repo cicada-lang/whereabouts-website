@@ -23,8 +23,7 @@ module.exports = {
         'LXGW WenKai Larger',
         'monospace',
       ],
-      // logo: ['Linux Libertine O', 'LXGW WenKai Larger', 'sans-serif'],
-      logo: ['Kodchasan', 'LXGW WenKai', 'serif'],
+      logo: ['Linux Libertine O', 'LXGW WenKai Larger', 'sans-serif'],
     },
   },
 }
