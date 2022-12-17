@@ -11,7 +11,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@cicada-lang/whereabouts": "^0.2.39",
+    "@cicada-lang/whereabouts": "^0.2.40",
     "floating-vue": "^2.0.0-beta.20",
     "js-base64": "^3.7.3",
     "jsdom": "^20.0.3",
@@ -19,11 +19,11 @@
     "vue-meta": "^2.4.0"
   },
   "devDependencies": {
-    "@headlessui/vue": "^1.7.5",
+    "@headlessui/vue": "^1.7.7",
     "@heroicons/vue": "^2.0.13",
     "@types/lodash": "^4.14.191",
     "@vitejs/plugin-vue": "^4.0.0",
-    "@vueuse/core": "^9.6.0",
+    "@vueuse/core": "^9.7.0",
     "@vueuse/head": "^1.0.22",
     "autoprefixer": "^10.4.13",
     "husky": "^8.0.2",
