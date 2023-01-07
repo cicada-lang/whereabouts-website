@@ -11,7 +11,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@cicada-lang/whereabouts": "^0.3.6",
+    "@cicada-lang/whereabouts": "^0.3.7",
     "floating-vue": "^2.0.0-beta.20",
     "js-base64": "^3.7.3",
     "jsdom": "^20.0.3",
@@ -28,7 +28,7 @@
     "@vueuse/head": "^1.0.22",
     "autoprefixer": "^10.4.13",
     "husky": "^8.0.3",
-    "postcss": "^8.4.20",
+    "postcss": "^8.4.21",
     "prettier": "^2.8.1",
     "prettier-plugin-organize-imports": "^3.2.1",
     "prettier-plugin-tailwindcss": "^0.2.1",
